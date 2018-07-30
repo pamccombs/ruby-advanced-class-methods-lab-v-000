@@ -49,7 +49,8 @@ class Song
     song_name = row[1].sub(/.mp3/, '')
     
     song = self.new
-    song.name = artist_name
+    song.name = song_name
+    song.artist_name
     
   end
 
