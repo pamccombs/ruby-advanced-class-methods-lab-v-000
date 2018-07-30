@@ -56,11 +56,9 @@ class Song
   end
   
   def self.create_from_filename(filename)
-    row = filename.split(" - ")
-    artist_name = row[0]
-    song_name = row[1].sub(/.mp3/, '')
     
-    song = self.new
+    
+    song = 
     song.save
     
   end
