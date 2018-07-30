@@ -48,6 +48,8 @@ class Song
     artist_name = row[0]
     song_name = row[1].sub(/.mp3/, '')
     
+    
+    
   end
 
 
